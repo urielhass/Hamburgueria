@@ -1,0 +1,26 @@
+<script type="text/javascript" src="resources/funcionario/js/serviceFunc.js"></script>
+<script type="text/javascript" src="resources/funcionario/js/gerenciaFuncionario.js"></script>
+<div class="container administrarPedidoDiv col-sm-12 row">
+	<div class="content">
+		<h3>Gerenciar Funcionários</h3>
+		<button class='btn btn-primary cadastrarFuncBtn' onclick="carregar('resources/funcionario/cadastroFuncionario.html')">Cadastrar Funcionário</button>
+		<div class="">
+			<form method="post">
+			<div class="input-group col-sm-6">
+				<input type="text" class="form-control" id="buscarInput" name="buscarInput" placeholder="Procure pelo Funcionário..."/>
+				<span class="input-group-btn">
+					<button class="btn btn-success" id="searchButton" type="button">Search</button>
+				</span>
+			</div>
+			</form>
+		</div>
+		<table class='table col-sm-12'><thead><tr>
+			<th><strong>Cód. Usuário</strong></th>
+			<th>Nome</th><th>Função</th>
+			<th>Telefone</th><th></th></tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+</div>

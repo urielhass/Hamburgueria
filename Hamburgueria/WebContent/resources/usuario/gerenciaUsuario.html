@@ -1,0 +1,31 @@
+<link rel="stylesheet" type="text/css" href="resources/usuario/css/usuario.css"/>
+<div class="container administrarPedidoDiv col-sm-12 row">
+	<div class="content">
+		<h3>Gerenciar Usuários</h3>
+		<button class='btn btn-primary cadastrarFuncBtn' onclick="carregar('resources/cadastroUsuario.html')">Cadastrar Usuário</button>
+		<div class="">
+			<div class="input-group col-sm-6">
+				<input type="text" class="form-control" placeholder="Procure pelo Usuário..." id="search">
+				<span class="input-group-btn">
+					<button class="btn btn-success" type="button" onclick="HM.usuario.listarTodos();">Search</button>
+				</span>
+			</div>
+		</div>
+		<table class='table col-sm-12'>
+			<thead>
+				<tr>
+					<th><strong>Cód. Usuário</strong></th>
+					<th>Nome</th>
+					<th>Cidade</th>
+					<th>Bairro</th>
+					<th>Rua, Número</th>
+					<th></th>
+				</tr>
+			</thead>
+			<tbody>
+			</tbody>
+		</table>
+	</div>
+</div>
+<script type='text/javascript' src='resources/usuario/js/serviceUsuario.js'></script>
+<script type="text/javascript" src="resources/usuario/js/gerenciaUsuario.js"></script>

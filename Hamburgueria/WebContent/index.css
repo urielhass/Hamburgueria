@@ -1,0 +1,86 @@
+body{
+	margin: 0 auto;
+	font-family: Century Gothic, Tahoma, Palatino;
+	background-image: url("assets/imagem/background.jpg");
+	background-size: 100%;
+	color: #fff;
+}
+.imgLogo{
+	width: 12%;
+	float: left;
+}
+.menu-login a{
+	margin-top: 0.5%;
+	text-decoration: none;
+	float: right;
+	color: #fff;
+}
+
+.sugestao-cristica a{
+	margin-top: 0.5%;
+	text-decoration: none;
+	float: right;
+	color: #fff;
+}
+
+
+.menu-link a{
+	text-decoration: none;
+	color: #fff;
+	margin-top: 0.5%;
+	text-align: left;
+
+}
+.menu{
+	height: 40px;
+	background-color: #0284CA;
+}
+.footer{
+	bottom: 0;
+	margin-top: 19%;
+	position: fixed;
+	background-color: #0284CA;
+	color: #fff;
+}
+#myModal, #myModal2{
+	color: white;
+}
+.ofertaDia{
+	box-shadow: 5px 5px 20px black;
+	margin-left: 47%;
+	margin-top: 10%;
+	width: 30%;
+	height: 30%;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #aaa599;
+	border-radius: 50%;
+	background-color: #ddbc3c;
+}
+.ofertaDia h1{
+	text-align: center;
+	color: #d01541;
+}
+.imgOfertaDia{
+	margin-top: -30%;
+}
+.divLetraOfertaDia{
+	margin-top: -6%;
+	margin-left: -3%;
+}
+.criticaOuSugestao{ 
+	color: #fff;
+	margin-top: 15%;
+	margin-right: 5px;
+	float: right;
+	width: 100px;
+	height: 105px;
+	background-color: #7F2020;
+	text-align: center;
+	box-shadow: 5px 5px 20px black !important;
+}
+.modales{
+	margin: 10% 20%;
+	width: 100%;
+	height: 100%;
+}

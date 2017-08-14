@@ -1,0 +1,3 @@
+.metadata/**/*
+.recommenders/**/*
+apache-tomcat-7.0.63/**/*

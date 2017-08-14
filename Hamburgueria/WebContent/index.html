@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<html>
+<head>
+	<title>Hamburgueria</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="index.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/hover-min.css"/>
+	<link rel="stylesheet" type="text/css" href="resources/css/custom.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap-switch.min.css"/>
+	<script type="text/javascript" src="assets/js/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="assets/js/ajax.js"></script>
+	<script type="text/javascript" src="assets/js/jquery-validate.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/Chart.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootbox.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap-switch.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap-datepicker.min.js"></script>
+	<script type="text/javascript" src="index.js"></script>
+	<script type="text/javascript" src="assets/js/jquery.mask.min.js"></script>
+	<script type="text/javascript" src="resources/js/custom.js"></script>
+	<script type="text/javascript" src="assets/js/taxa.js"></script>
+</head>
+<body>
+	<div class="menu col-sm-12 navbar-default">
+		<div class="img-logo">
+			<a href='index.html'><img class='imgLogo' src="assets/imagem/johnny-rockets.png"/></a>
+		</div>
+		<div class="menu-link col-sm-6 ">
+			<ul class="nav nav-pills nav-justified">
+				<li role="presentation" class=""><div class="menu-link"><a onclick="carregar('resources/pedidos/delivery.html')" href='#' class="hvr-bounce-in"><strong>DELIVERY</strong></a></div>	</li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/contato.html')" href='#' class="hvr-bounce-in"><strong>CONTATO</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/usuario/cadastroUsuario.html')" href='#' class="hvr-bounce-in"><strong>CADASTRO</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/pedidos/administrarPedido.html')" href='#' class="hvr-bounce-in"><strong>TESTE1</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/pedidos/listarPedidoUsuario.html')" href='#' class="hvr-bounce-in"><strong>TESTE2</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/pedidos/acompanharPedidoUsuario.html')" href='#' class="hvr-bounce-in"><strong>TESTE3</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/funcionario/gerenciaFuncionario.html')" href='#' class="hvr-bounce-in"><strong>G. FUNC</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/taxa/gerenciaTaxa.html')" href='#' class="hvr-bounce-in"><strong>G. TAXA</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/usuario/gerenciaUsuario.html')" href='#' class="hvr-bounce-in"><strong>G. USER</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/produto/gerenciaProduto.html')" href='#' class="hvr-bounce-in"><strong>G. PRODU</strong></a></div></li>
+				<li role="presentation"><div class="menu-link"><a onclick="carregar('resources/funcionario/controleVendas.html')" href='#' class="hvr-bounce-in"><strong>Controle de Vendas</strong></a></div></li>
+			</ul>
+		</div>
+		<div class="menu-login">
+			<div class="bs-example">
+				<a href="resources/login/login.html" data-toggle="modal" data-target="#myModal" id='div-menu-login'><strong>Login</strong></a>
+				    <div id="myModal" class="modal fade">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				            </div>
+				        </div>
+				  	</div>
+			</div>
+		</div>
+		<div class="sugestao-critica">
+			<div class="bs-example">
+				<a href="resources/sugestaocritica/sugestaocritica.html" data-toggle="modal" data-target="#myModal2">
+					<strong>Envie nos suas dicas ou sugestões!</strong>
+				</a>
+				    <div id="myModal2" class="modal fade">
+				        <div class="modal-dialog">
+				            <div class="modal-content">
+				            </div>
+				        </div>
+				  	</div>
+			</div>
+		</div>
+	</div>
+	<div class="conteudo col-sm-10 " id="conteudo">
+		<div class='conteudoIndex' id='conteudoIndex'></div>
+	</div>
+	<div class="footer col-sm-12">
+		<p>2016 © Todos os direitos reservados.</p>
+	</div>
+</body>
+</html>

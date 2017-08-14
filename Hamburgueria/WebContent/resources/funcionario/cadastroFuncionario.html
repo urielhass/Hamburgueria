@@ -1,0 +1,85 @@
+<script type='text/javascript' src="assets/js/cidade.js"></script>
+<script type="text/javascript" src="assets/js/bairro.js"></script>
+<script type="text/javascript" src="resources/funcionario/js/cadastroFuncionario.js"></script>
+<script type="text/javascript" src="assets/js/jquery.mask.min.js"></script>
+<link rel="stylesheet" type="text/css" href="resources/funcionario/css/funcionario.css"/>
+<div class='divForm'>
+	<h1>Formulário Funcionário</h1>
+	<form method='POST' role='form' class='row form-group' action='' id="formFuncionario">
+		<div class='col-sm-6 cadastroUserLeft'>
+			<div class="form-group">
+			    <label for='txtnome'>Nome e Sobrenome:</label>
+			    <input type="text" class="form-control" id="txtnome" name="txtnome" />
+			</div>
+			<div class="form-group col-xs-6 bugcol1">
+			    <label for='nmbrcpf'>CPF:</label>
+			    <input type="text" class="form-control" id="nmbrcpf" name="nmbrcpf" />
+			</div>
+			<div class="form-group col-xs-6 bugcol2">
+				<label for='nmbrrg'>RG:</label>
+				<input type='text' class='form-control' id='nmbrrg' name='nmbrrg' />
+			</div>
+			<div class='form-group col-xs-6 bugcol1'>
+				<label for='nmbrdata-nascimento'>Data de nascimento:</label>
+				<input type='text' class='form-control' id='nmbrdatanascimento' name='nmbrdatanascimento' />
+			</div>
+			<div class='form-group col-xs-6 bugcol2'>
+				<label for='nmbrfone'>Telefone:</label>
+				<input type='text' class='form-control' id='nmbrfone' name='nmbrfone' />
+			</div>
+			<div class="form-group">
+			    <label for='txtemail'>Email:</label>
+			    <input type="text" class="form-control" id="txtemail" name='txtemail' />
+			</div>
+			<div class="form-group">
+			    <label for='pass'>Senha:</label>
+			    <input type="password" class="form-control" id="pass" name='pass' />
+			</div>
+			<div class="form-group">
+				<label for='confirmPass'>Confirmar senha:</label>
+			    <input type="password" class="form-control" id="confirmPass" name='confirmPass' />
+			</div>
+			<div class='form-group'>
+				<label for='administrador'>Administrador:</label>
+				<input type='checkbox' id='administrador' name='administrador' />
+			</div>
+		</div>
+		<div class='col-sm-6 cadastroUserRight'>
+			<div class="form-group">
+			    <label for='txtfuncao'>Função:</label>
+			    <input type="text" class="form-control" id="txtfuncao" name='txtfuncao' />
+			</div>
+			<div class='form-group'>
+				<label for='cep'>CEP:</label>
+				<input type='text' class='form-control' id='cep' name='cep' />
+			</div>
+			<div class="form-group">
+			    <label for='txtcidade'>Cidade:</label>
+			    <select id='txtcidade' name='txtcidade' class='form-control'>
+			    	
+			    </select>
+			</div>
+			<div class="form-group">
+			    <label for='txtbairro'>Bairro:</label>
+			    <select class="form-control" id="txtbairro" name='txtbairro'></select>
+			</div>
+			<div class="form-group col-sm-9 bugcol1">
+			    <label for='txtrua'>Rua:</label>
+			    <input type="text" class="form-control" id="txtrua" name='txtrua' />
+			</div>
+			<div class="form-group col-sm-3">
+				<label for='nmbrcasa'>Número:</label>
+			    <input type="text" class="form-control" id="nmbrcasa" name='nmbrcasa' />
+			</div>
+			<div class='form-group'>
+				<label for='txtcomplemento'>Complemento:</label>
+				<input type='text' class='form-control' id='txtcomplemento' name='txtcomplemento' />
+			</div>
+			<input type="text" style="display:none;" id="codfuncionario" />
+			<div class='form-group'>
+				<input type='button' onclick="HM.funcionario.cadastrar();" class='btn btn-primary' id='buttonConfirmar' value='Confirmar'/>
+				<input type='reset' class='btn btn-default' value='Limpar'/> 
+			</div>
+		</div>
+	</form>
+</div>
